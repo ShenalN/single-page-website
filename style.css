@@ -254,12 +254,12 @@ footer{
   width: 0;
 }
 
-header h1{
+.text h1{
   font-size: 45px;
   text-align: left;
 }
 
-header p{
+.text p{
   font-size: 18px;
   text-align: left;
 }
@@ -357,5 +357,11 @@ header p{
     z-index: 10;
   }
 
+  .text h1{
+    font-size: 30px;
+  }
 
+  .text p {
+    font-size: 20px;  
+  }
 }
