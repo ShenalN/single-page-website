@@ -21,7 +21,7 @@ body{
 }
 
 header{
-  padding: 30px;
+  padding: 50px;
   width: 100vw;
   height: 10vh;
   background: #000;
@@ -31,6 +31,7 @@ header{
   align-items: center;
  
 }
+
 
 
 header nav{
@@ -86,12 +87,12 @@ section{
 }
 
 .intro .info h1,.header{
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
 }
 
 .intro .info p,.sub-header{
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -124,6 +125,11 @@ button:active{
   padding: 50px;
   padding-bottom: 0;
   border-radius: 10px;
+  width: 60vw;
+}
+
+.writer-inner img{
+  width: 50vw;
 }
 
 .writer h1{
@@ -139,9 +145,13 @@ button:active{
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
+
+.download h1{
+  width: 60vw;
+}
 .download-inner .book{
-  width: 280px;
-  height: 400px;
+  width: 200px;
+  height: 300px;
   margin: 10px;
   background-size: cover;
   transition: .4s;
@@ -177,6 +187,10 @@ button:active{
 .read{
   justify-content: space-between;
   flex-direction: column;
+}
+
+.read img{
+  width: 30vw;
 }
 
 .read a{
@@ -256,14 +270,11 @@ footer{
 
 .text h1{
   font-size: 45px;
-  text-align: left;
 }
 
 .text p{
   font-size: 18px;
-  text-align: left;
 }
-
   
 
 
@@ -315,13 +326,13 @@ footer{
   }
   .writer-inner{
     padding: 10px;
-    width: 80vw;
-    height: 80vw;
+    width: 60vw;
+    height: 60vw;
     padding-bottom: 0;
     
   }
   .writer-inner img{
-    width: 70vw;
+    width: 40vw;
   }
   .download-inner{
     display: grid;
@@ -356,13 +367,13 @@ footer{
     transform: scale(1);
     z-index: 10;
   }
-
-  .text h1{
-    font-size: 30px;text-align: center;
+  .text h1 {
+    font-size: 30px;
   }
-
-  .text p {
+  
+  .text p{
     font-size: 20px;
-    text-align: center;
   }
+  
+
 }
