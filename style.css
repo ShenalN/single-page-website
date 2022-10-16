@@ -21,7 +21,7 @@ body{
 }
 
 header{
-  padding: 50px;
+  padding: 30px;
   width: 100vw;
   height: 10vh;
   background: #000;
@@ -32,15 +32,6 @@ header{
  
 }
 
-header h1{
-  font-size: 50px;
-  text-align: left;
-}
-
-header p{
-  font-size: 20px;
-  text-align: left;
-}
 
 header nav{
   min-width: 50%;
@@ -262,6 +253,17 @@ footer{
 .menu.active span:nth-child(2) {
   width: 0;
 }
+
+header h1{
+  font-size: 45px;
+  text-align: left;
+}
+
+header p{
+  font-size: 18px;
+  text-align: left;
+}
+
   
 
 
