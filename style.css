@@ -55,6 +55,11 @@ header nav ul li{
   font-weight: 500;
 }
 
+header nav ul li a{
+  text-decoration: none;
+  color: var(--primary);
+}
+
 section{
   min-height: 90vh;
   display: flex;
@@ -122,14 +127,14 @@ button:active{
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  padding: 50px;
+  padding: 20px;
   padding-bottom: 0;
   border-radius: 10px;
-  width: 60vw;
+  width: 40vw;
 }
 
 .writer-inner img{
-  width: 50vw;
+  width: 30vw;
 }
 
 .writer h1{
@@ -150,8 +155,8 @@ button:active{
   width: 60vw;
 }
 .download-inner .book{
-  width: 200px;
-  height: 300px;
+  width: 100px;
+  height: 150px;
   margin: 10px;
   background-size: cover;
   transition: .4s;
@@ -190,7 +195,8 @@ button:active{
 }
 
 .read img{
-  width: 30vw;
+  width: 15vw;
+  border-radius: 10px;
 }
 
 .read a{
